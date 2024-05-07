@@ -1,0 +1,292 @@
+:root{
+    --blue-gradient : linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    background: #F8F9FA;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* NAV DESIGN START  */
+
+.custom-logo{
+    color: #0D6EFD !important;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+.custom-nav-div .nav-link{
+    color: rgba(0,0,0,0.65) !important;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: bold;
+}
+
+.custom-nav-div .nav-link:hover{
+    color: rgba(0,0,0,1) !important;
+}
+
+/* NAV DESIGN END */
+
+/* HEADER DESIGN START  */
+.h3-of-header{
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: bold;
+    color: #fff;
+    background:var(--blue-gradient);
+    display: inline-block;
+}
+
+.p-of-header{
+    font-size: 28px;
+    line-height: 42px;
+    font-weight: light;
+    color: #212529;
+}
+
+.h1-of-header{
+    font-size: 64px;
+    line-height: 76.8px;
+    font-weight: bold;
+    background: var(--blue-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.custom-btn a{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+}
+
+.custom-btn a:hover{
+    text-decoration: underline;
+}
+
+.custom-img-div{
+    position: relative;
+}
+
+.custom-profile-img{
+    position: absolute;
+    bottom: 3rem;
+    width: 40rem;
+}
+/* HEADER DESIGN END  */
+
+/* ABOUT SECTION DESIGN START  */
+.custom-background{
+    background-color: #fff;
+}
+.experience-box{
+    background: #F8F9FA;
+}
+#about-me h3{
+    font-size: 48px;
+    line-height: 57.6px;
+    background: var(--blue-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+#about-me .custom-p1-about{
+    color: #212529;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: light;
+    text-align: center;
+}
+
+#about-me .custom-p2-about{
+    color: #212529;
+    font-size: 16px;
+    line-height:24px;
+    text-align: center;
+}
+
+.social-icons i{
+    background: var(--blue-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px !important;
+}
+
+/* ABOUT SECTION DESIGN END */
+
+/* RESUME PAGE DESIGN START  */
+
+.resume{
+    background-color: #F8F9FA;
+}
+
+.resume h2{
+    font-size: 48px;
+    line-height: 57.6px;
+    background: var(--blue-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+.experience{
+    font-size: 32px;
+    line-height: 38.4px;
+}
+
+.experience ~ a{
+    line-height: 24px;
+}
+
+.experience-box{
+    background-color: #F8F9FA ;
+}
+
+.experience-box h3{
+    line-height: 24px;
+}
+
+.experience-box h3{
+    font-size: 14px;
+    line-height: 21px;
+    color: #212529;
+}
+
+.education,
+.color6C757D,
+.gray-2015-2017{
+    color: #6C757D !important;
+}
+
+
+.color6C757D ~ h4{
+    color: #212529;
+}
+
+.college-black{
+    color: #212529;
+}
+
+/* skill section design start  */
+.bi-tools,
+.bi-code-slash{
+    font-size: 28px;
+    line-height: 33.6px;
+    background: var(--blue-gradient);
+    color: #fff;
+}
+
+.bi-tools ~ h3,
+.bi-code-slash ~ h3{
+    background: var(--blue-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 28px;
+    line-height: 33.6px;
+}
+
+.skills p{
+    background: #F8F9FA;
+    width: 220px;
+    height: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-resume{
+    margin-top: 100px !important;
+}
+/* skill section design end */
+
+/* RESUME PAGE DESIGN END */
+
+/* PROJECTS SECTION START  */
+.custom-border-radius{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.img-300-400{
+    margin-right: 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.project-name-h3{
+    font-size: 32px;
+    line-height: 38.4px;
+    color: #212529;
+}
+
+#build-something{
+    background: var(--blue-gradient) ;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+
+#build-something .h2{
+    font-size: 56px; ;
+    line-height: 67.2px;
+}
+
+.contact-btn{
+    padding: 20px 50px !important;
+}
+.contact-btn:hover{
+    color: #212529 !important;
+}
+/* PROJECTS SECTION END */
+
+/* CONTACT PAGE DESIGN START  */
+.container-contact{
+    background: #F8F9FA;
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+}
+
+.bi-envelope{
+    font-size: 28px;
+    line-height: 33.6px;
+    background: var(--blue-gradient);
+    color: #fff;
+}
+
+.bi-envelope ~ h3{
+    font-size: 40px;
+    line-height: 48px;
+    color: #212529;
+}
+
+.bi-envelope ~ span{
+    font-size: 20px;
+    line-height: 30px;
+    color: #212529;
+}
+
+.container-contact form input::placeholder,
+.container-contact form textarea{
+    color: #212529 !important;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.container-contact form input,
+.container-contact form textarea{
+    border: 1px solid #dee2e6 !important;
+}
+/* CONTACT PAGE DESIGN END */
